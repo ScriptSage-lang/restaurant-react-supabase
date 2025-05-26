@@ -9,6 +9,7 @@ import { toast } from "@/components/ui/use-toast";
 import { Loader2 } from 'lucide-react';
 import { CardContent, CardFooter } from "@/components/ui/card";
 
+
 interface AuthFormProps {
   authMode: "signin" | "signup";
   setAuthMode: React.Dispatch<React.SetStateAction<"signin" | "signup">>;
@@ -129,8 +130,7 @@ const AuthForm: React.FC<AuthFormProps> = ({ authMode, setAuthMode }) => {
               <Button
                 variant="link"
                 className="p-0 h-auto"
-                onClick={() => setAuthMode("signin")}
-              >
+                onClick={() => setAuthMode("signin")} >
                 Sign in
               </Button>
             </p>

@@ -1,6 +1,6 @@
 # Restaurant Management System
 
-## Project Overview
+## Project Overview 
 
 The **Restaurant Management System** is a modern web application built with React and Supabase. It helps restaurant owners efficiently manage orders, menus, reservations, and customer interactions.
 
